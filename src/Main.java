@@ -9,6 +9,10 @@ public class Main {
         System.out.println(salaryCalculator.bonusMultiplier(20));
         System.out.println(salaryCalculator.bonusMultiplier(21));
         System.out.println(salaryCalculator.bonusForProductsSold(5));
-        System.out.println("Hello world!");
+        System.out.println();
+        System.out.println(salaryCalculator.finalSalary(0,0));
+        System.out.println(salaryCalculator.finalSalary(7,0));
+        System.out.println(salaryCalculator.finalSalary(2,5));
+        System.out.println(salaryCalculator.finalSalary(0,77));
     }
 }
